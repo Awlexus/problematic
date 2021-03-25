@@ -1,21 +1,13 @@
 # Problematic
 
-**TODO: Add description**
+## This project won't compile
+It demonstrates an issue where the documentation of a module is not available,
+although I called `Code.ensure_compiled` before trying to fetch the documentation.
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `problematic` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:problematic, "~> 0.1.0"}
-  ]
-end
+### Version
+Reproduceable with
 ```
+Erlang/OTP 23 [erts-11.1.8] [source] [64-bit] [smp:12:12] [ds:12:12:10] [async-threads:1] [hipe]
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/problematic](https://hexdocs.pm/problematic).
-
+Elixir 1.11.3 (compiled with Erlang/OTP 23)
+```
